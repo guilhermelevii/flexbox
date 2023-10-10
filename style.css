@@ -2,7 +2,9 @@
 
 .container {
   display: flex;
-  background-color: grey;
+  flex-direction:row;
+  background-color:grey;
+  margin: 10px;
 }
 .container div {
   background-color: red;
