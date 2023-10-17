@@ -15,7 +15,7 @@ flex: 1, 2, 3, 4;
 .div1 {
   flex: 1;
   background-color: #ff0000;
-  margin: 10px; 
+  margin: 10px;
   padding: 10px;
   font-size: 18px;
   border-radius: 10px;
