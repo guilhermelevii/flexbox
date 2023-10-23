@@ -3,17 +3,23 @@
 /*display:flex;
 flex-direction: row OR column;
 flex: 1, 2, 3, 4;
+flex-flow:
+justify-content: center; - horizontal - na direção
+align-items: center; - vertical -inverso da direção 
 */
 
 .container {
   display: flex;
-  flex-direction:row;
+  height: 500px;
+  justify-content: space-around;
+  align-items: center;
   background-color: #dddddd;
   margin: 10px;
 }
 
-.div1 {
-  flex: 1;
+.container div {
+  width:100px;
+  height: 100px;
   background-color: #ff0000;
   margin: 10px;
   padding: 10px;
@@ -21,82 +27,5 @@ flex: 1, 2, 3, 4;
   border-radius: 10px;
 }
 
-.div2 {
-  flex: 1;
-  background-color: #ff0000;
-  margin: 10px;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 10px;
-}
-.div3 {
-  flex: 1;
-  background-color: #ff0000;
-  margin: 10px;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 10px;
-}
 
-.div4 {
-  flex: 1;
-  background-color: #ff0000;
-  margin: 10px;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 10px;
-}
 
-.div5 {
-  flex: 1;
-  background-color: #ff0000;
-  margin: 10px;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 10px;
-}
-
-.div6 {
-  flex: 1;
-  background-color: #ff0000;
-  margin: 10px;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 10px;
-}
-
-.div7 {
-  flex: 1;
-  background-color: #ff0000;
-  margin: 10px;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 10px;
-}
-
-.div8 {
-  flex: 1;
-  background-color: #ff0000;
-  margin: 10px;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 10px;
-}
-
-.div9 {
-  flex: 1;
-  background-color: #ff0000;
-  margin: 10px;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 10px;
-}
-
-.div10 {
-  flex: 1;
-  background-color: #ff0000;
-  margin: 10px;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 10px;
-}
