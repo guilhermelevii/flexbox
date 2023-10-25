@@ -1,11 +1,17 @@
 @charset "UTF-8";
 
-/*display:flex;
+/*
+-PRINCIPAIS-
+display:flex;
 flex-direction: row OR column;
 flex: 1, 2, 3, 4;
 flex-flow:
 justify-content: center; - horizontal - na direção
 align-items: center; - vertical -inverso da direção 
+
+-ADICIONAIS-
+align-self:   (alinha um iten em específico)
+
 */
 
 .container {
@@ -28,5 +34,8 @@ align-items: center; - vertical -inverso da direção
   border-radius: 10px;
 }
 
+.div4 {
+  align-self: flex-start;
+}
 
 
